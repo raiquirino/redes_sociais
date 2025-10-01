@@ -40,6 +40,25 @@ iframe#tela {
     left: 24px;
     width: 263px;
     height: 467px;
-    
+}
 
+section#redes-sociais {
+    text-align: right;
+}
+
+
+section > a > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box; /* Faz com que a borda seja incluída nas dimensões totais da caixa e evita deslocamentos indesejados */
+
+}
+
+section#redes-sociais img:hover {
+    transform:  translate(-3px, -3px);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform .3s, border 1s;
 }
